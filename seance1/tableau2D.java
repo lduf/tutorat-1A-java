@@ -25,10 +25,10 @@ public class tableau2D{
 		System.out.println(int_array[1].length); // 3
 
 		for(int i=0; i<int_array.length; i++){
+			// int_array[1] me donne {11,12,13,14,15}
 			for (int j = 0; j<int_array[i].length ; j++) { //5
-				
+				System.out.println("Element à l'index ("+i+", "+j+") : "+int_array[i][j]);
 			}
-		 // System.out.println("Element à l'index "+i+" : "+int_array[i]);
 		}
 
 	}
