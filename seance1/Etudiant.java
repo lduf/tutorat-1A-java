@@ -10,7 +10,7 @@ public class Etudiant{
 	//constructeur
 	public Etudiant(String prenom, String nom, int numero_etudiant, int classe){
 		this.prenom = prenom; //this sous entendu 'dans cette classe (java)'
-		this.nom = nom; 
+		this.nom = nom;
 		this.numero_etudiant = numero_etudiant;
 		this.classe = classe;
 	}

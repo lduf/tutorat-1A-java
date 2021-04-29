@@ -16,15 +16,11 @@ public class Test{
 			etudiant1.ajouterNote(10+i,i);
 		}
 		
-		afficherNotes(etudiant1);
+		afficherNotes(etudiant1); // appelle la méthode de la classe Test
 		System.out.println("___________");
-		etudiant1.afficherNotes();
+		etudiant1.afficherNotes(); // appelle la méthode de la classe
 
+		
 	}
 
-	public static void afficherNotes(Etudiant etudiant){
-		for(int i = 0; i<etudiant.notes.length; i++){
-			System.out.println(etudiant.notes[i]);
-		}
-	}
 }
